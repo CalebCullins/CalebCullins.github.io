@@ -1,4 +1,4 @@
-  <meta charset="UTF-8">
+@charset "UTF-8"
 @font-face
 {
 	font-family: Champagne;
@@ -75,6 +75,10 @@ nav
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+a:visited
+{
+	
 }
 
 
