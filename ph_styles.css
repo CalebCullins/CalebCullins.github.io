@@ -1,0 +1,89 @@
+  <meta charset="UTF-8">
+@font-face
+{
+	font-family: Champagne;
+	scr: url(cac_champagne.woff) format('woff'), 
+	url(cac_champagne.ttf) format('ttf');
+}
+@font-face
+{
+	font-family: Grunge;
+	scr: url(1942.woff) format('woff'), 
+	url(1942.ttf) format('ttf');
+}
+@font-face
+{
+	font-family: Dobkin;
+	scr: url(DobkinPlain.woff) format('woff'), 
+	url(DobkinPlain.ttf) format('ttf');
+}
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 1
+   
+   PHCT Typographic Style Sheet
+   Author: Caleb Cullins
+   Date:   Feb 11, 2019
+   
+   Filename: ph_styles.css
+
+*/
+
+
+/* Structural Styles */
+
+html
+{
+	background-color: hsl(91, 8%, 56%);
+}
+body
+{
+	background-color: hsl(58, 31%, 84%);
+	font-family:'Palatino Linotype', 'Book Antiqua,' Palatino, serif;
+}
+header 
+{
+	background-color: black;
+}
+p
+{
+	padding-top: 5px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	margin: 0px;
+}
+body + p
+{
+	font-size: 1.1em;
+	text-align: center;
+}
+address
+{
+	font-style: normal;
+	font-size: .9em;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* Navigation Styles */
+
+nav
+{
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+
+/* Section Styles */
+
+
+
+
+/* Description List Styles */
+
