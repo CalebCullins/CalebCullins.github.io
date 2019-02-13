@@ -1,20 +1,20 @@
-@charset "UTF-8"
+@charset "UTF-8";
 @font-face
 {
 	font-family: Champagne;
-	scr: url(cac_champagne.woff) format('woff'), 
+	src: url(cac_champagne.woff) format('woff'), 
 	url(cac_champagne.ttf) format('ttf');
 }
 @font-face
 {
 	font-family: Grunge;
-	scr: url(1942.woff) format('woff'), 
+	src: url(1942.woff) format('woff'), 
 	url(1942.ttf) format('ttf');
 }
 @font-face
 {
 	font-family: Dobkin;
-	scr: url(DobkinPlain.woff) format('woff'), 
+	src: url(DobkinPlain.woff) format('woff'), 
 	url(DobkinPlain.ttf) format('ttf');
 }
 /*
@@ -40,7 +40,7 @@ html
 body
 {
 	background-color: hsl(58, 31%, 84%);
-	font-family:'Palatino Linotype', 'Book Antiqua,' Palatino, serif;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
 header 
 {
@@ -81,6 +81,7 @@ nav
 a:link
 {
 	text-decoration: none;
+	color: white;
 }
 a:visited
 {
@@ -106,7 +107,7 @@ h1
 	margin: 0px;
 	padding-top: 20px;
 	padding-right: 0px;
-	padding-botttom: 10px;
+	padding-bottom: 10px;
 	padding-left: 20px;
 }
 #play1
@@ -124,7 +125,7 @@ h1
 }
 #play2 h1
 {
-	font-family: Grunge, 'Times New Roman', Times serif;
+	font-family: Grunge, 'Times New Roman', Times, serif;
 }
 #play3
 {
