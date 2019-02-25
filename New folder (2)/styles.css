@@ -6,5 +6,48 @@
 
 body
 {
-	background-color: hsl(169, 204, 227);
+	background: linear-gradient(to bottom, #0066cc 0%, #9966ff 100%);
+	color:white;
+	font-family:Times New Roman;
+	border-left: 300px solid navy;
+	border-right: 300px solid navy;
+	margin: 0px;
+	
+}
+
+#main {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#contact {
+	text-align: center;
+	padding-right:auto;
+	padding-left:auto;
+	padding-top:0;
+	padding-bottom:0;
+}
+a:hover
+{
+	color: red;
+}
+a:visited
+{
+	color: black;
+}
+h1
+{
+	font-family:Comic Sans MS;
+	font-size: 1.55em
+}
+footer{
+	text-align: center;
+	
+}
+.center
+{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
