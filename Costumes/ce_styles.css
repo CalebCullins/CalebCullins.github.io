@@ -13,15 +13,89 @@
 
 
 /* Window and Body Styles */
+html
+{
+	background-color: rgb(101, 101, 101)
+}
+body
+{
+	background-color: white;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	margin: 20px auto;
+	width: 95%;
+	min-width:320px;
+	max-width:960px;
+	position:relative;
+}
+img
+{
+	display: block;
+	width:100%;
+}
 
-
-
+nav a
+{
+	text-decoration:none;
+}
 /* Body Header Styles */
+header
+{
+	background-color: rgb(191, 68, 70);
+	height:40px;
+}
+header nav ul li
+{
+	display:block;
+	float:left;
+	margin-right:20px;
+	padding:10px 0px;
+}
 
-
-
+header nav ul li a:link, header nav ul a:visited
+{
+	font-size: 0.9em;
+	color: rgb(51, 51, 51);
+}
+header nav ul li a:hover, header nav ul a:visited, header nav ul a:focus
+{
+	color: rgb(255, 211, 211);
+}
 /* DIV Container Styles */
-
+div#container
+{
+	padding-right:8px;
+	padding-bottom: 8px;
+}
+div.cell a
+{
+	display:block;
+	width:100%;
+	padding-left:8px;
+	padding-top:8px;
+}
 
 
 /* Footer Styles */
+footer
+{
+	position:absolute;
+	right:8px;
+	bottom:8px;
+	color: rgb(143, 33, 36);
+	text-align:right;
+	font-size:2vmin;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
