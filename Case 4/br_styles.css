@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Case Problem 4
+   
+   Browyer Realty Layout Styles
+   Author: Caleb Cullins
+   Date:   03/18/19
+	
+   Filename: br_styles.css
+
+*/
+nav.horizontal ul li {
+   background-color: rgb(204, 0, 0);
+   display: block;
+   font-size: 15px;
+   float: left;
+   line-height: 30px;
+   height: 30px;
+   width: 200px;
+}
+
+nav.horizontal a {
+   display: block;
+   text-align: center;
+   text-decoration: none;
+}
+   
+nav.horizontal a:link, nav.horizontal:visited {
+	color: rgb(0, 0, 102);}
+}
+
+nav.horizontal a:hover, nav.horizontal:active {
+   background-color: rgb(102, 0, 0);
+}
+nav.horizontalfooter ul li {
+   background-color: rgb(204, 0, 0);
+   display: block;
+   font-size: 15px;
+   float: left;
+   line-height: 30px;
+   height: 30px;
+   width: 200px;
+	
+}
+
+nav.horizontalfooter a {
+   display: block;
+   text-align: center;
+   text-decoration: none;
+}
+   
+nav.horizontalfooter a:link, nav.horizontalfooter:visited {
+	color: rgb(0, 0, 102);}
+
+nav.horizontalfooter a:hover, nav.horizontalfooter:active {
+   background-color: rgb(102, 0, 10);
+}
+nav.horizontalfooter{
+   position:absolute;
+   bottom:0;
+	}
