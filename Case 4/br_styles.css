@@ -29,13 +29,38 @@ nav.horizontal a {
 }
    
 nav.horizontal a:link, nav.horizontal:visited {
-	color: rgb(0, 0, 102);}
+	color: white;}
 }
 
 nav.horizontal a:hover, nav.horizontal:active {
    background-color: rgb(102, 0, 0);
 }
-nav.horizontalfooter ul li {
+
+body
+{
+	background-image: url("27.jpg");
+	background-image: repeat;
+	color: white;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: rgb(204, 0, 0);
+  text-align: center;
+
+}
+.footer a:link, nav.horizontalfooter:visited {
+	color: white;}
+
+.footer a:hover, nav.horizontalfooter:active {
+   background-color: rgb(102, 0, 10);
+}
+
+.footer ul li {
    background-color: rgb(204, 0, 0);
    display: block;
    font-size: 15px;
@@ -43,22 +68,25 @@ nav.horizontalfooter ul li {
    line-height: 30px;
    height: 30px;
    width: 200px;
-	
+   text-decoration:none;
 }
-
-nav.horizontalfooter a {
+.footer a {
    display: block;
    text-align: center;
    text-decoration: none;
 }
-   
-nav.horizontalfooter a:link, nav.horizontalfooter:visited {
-	color: rgb(0, 0, 102);}
-
-nav.horizontalfooter a:hover, nav.horizontalfooter:active {
-   background-color: rgb(102, 0, 10);
+article
+{
+	background-color: white;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
-nav.horizontalfooter{
-   position:absolute;
-   bottom:0;
-	}
+
+#address
+{
+	margin-top: 20px;
+}
+
+
