@@ -12,6 +12,8 @@
    Filename: br_styles.css
 
 */
+
+/* this is the code for formatting my header*/
 nav.horizontal ul li {
    background-color: rgb(204, 0, 0);
    display: block;
@@ -35,16 +37,15 @@ nav.horizontal a:link, nav.horizontal:visited {
 nav.horizontal a:hover, nav.horizontal:active {
    background-color: rgb(102, 0, 0);
 }
-
+/* code for formatting the body of the page */
 body
 {
 	background-image: url("27.jpg");
 	background-image: repeat;
 	color: white;
 }
-
+/* formatting the footer */
 .footer {
-  position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
@@ -66,7 +67,7 @@ body
    font-size: 15px;
    float: left;
    line-height: 30px;
-   height: 30px;
+   height: 50px;
    width: 200px;
    text-decoration:none;
 }
@@ -75,6 +76,7 @@ body
    text-align: center;
    text-decoration: none;
 }
+/* formatting the article */
 article
 {
 	margin-right: 20px;
@@ -84,11 +86,12 @@ article
 	width: 1250px;
 	border-radius: 25px;
 }
-
+/* this formats the address section */
 #address
 {
 	margin-top: 20px;
 }
+/* this puts a border around the text for the house */
 #text {
 	border-radius: 25px;
 	  border: 2px solid black;
@@ -96,7 +99,7 @@ article
   width: 1250px;
   height: 150px
 }
-
+/* all these photo id's make the grey box shadow around each photo */
 #photo1
 {
 box-shadow: 10px 10px 5px grey;
@@ -133,7 +136,7 @@ box-shadow: 10px 10px 5px grey;
 {
 box-shadow: 10px 10px 5px grey;
 }
-
+/* this puts  a very light dop shadow on the box and logo */
 #text{
 	color: white;
   text-shadow: 2px 2px 4px #000000;
