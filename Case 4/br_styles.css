@@ -21,21 +21,23 @@ nav.horizontal ul li {
    float: left;
    line-height: 30px;
    height: 30px;
-   width: 250px;
+   width: 20%;
 }
 
 nav.horizontal a {
    display: block;
    text-align: center;
    text-decoration: none;
+   width:100%
 }
    
-nav.horizontal a:link, nav.horizontal:visited {
+.horizontal a:link, nav.horizontal:visited {
 	color: white;}
 }
 
-nav.horizontal a:hover, nav.horizontal:active {
-   background-color: rgb(102, 0, 0);
+.horizontal a:hover, nav.horizontal:active {
+   background-color: rgb(102, 0, 10);
+   color: white;
 }
 /* code for formatting the body of the page */
 body
@@ -49,9 +51,7 @@ body
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
   background-color: rgb(204, 0, 0);
-  text-align: center;
 
 }
 .footer a:link, nav.horizontalfooter:visited {
@@ -59,6 +59,7 @@ body
 
 .footer a:hover, nav.horizontalfooter:active {
    background-color: rgb(102, 0, 10);
+   color: white;
 }
 
 .footer ul li {
@@ -67,14 +68,15 @@ body
    font-size: 15px;
    float: left;
    line-height: 30px;
-   height: 50px;
-   width: 200px;
+   height: 30px;
+   width: 25%;
    text-decoration:none;
 }
 .footer a {
    display: block;
    text-align: center;
    text-decoration: none;
+   width: 100%
 }
 /* formatting the article */
 article
@@ -147,4 +149,14 @@ box-shadow: 10px 10px 5px grey;
 {
 	transform: rotate(5deg);
 	filter:drop-shadow(8px 8px 10px gray);
+}
+#price
+{
+	filter:drop-shadow(8px 8px 10px gray);
+	text-shadow: 2px 2px 4px #000000;
+	padding-top: 20px;
+	border-radius: 25px;
+	padding: 20px;
+	border: 2px solid black;
+	width: 300px;
 }
