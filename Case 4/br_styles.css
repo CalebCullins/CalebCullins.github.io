@@ -19,7 +19,7 @@ nav.horizontal ul li {
    float: left;
    line-height: 30px;
    height: 30px;
-   width: 200px;
+   width: 250px;
 }
 
 nav.horizontal a {
@@ -77,16 +77,71 @@ body
 }
 article
 {
-	background-color: white;
 	margin-right: 20px;
 	margin-left: 20px;
 	margin-bottom: 20px;
 	margin-top: 20px;
+	width: 1250px;
+	border-radius: 25px;
 }
 
 #address
 {
 	margin-top: 20px;
 }
+#text {
+	border-radius: 25px;
+	  border: 2px solid black;
+  padding: 20px; 
+  width: 1250px;
+  height: 150px
+}
 
+#photo1
+{
+box-shadow: 10px 10px 5px grey;
+}
+#photo2
+{
+box-shadow: 10px 10px 5px grey;
+}
+#photo3
+{
+box-shadow: 10px 10px 5px grey;
+}
+#photo4
+{
+box-shadow: 10px 10px 5px grey;
+}
+#photo5
+{
+box-shadow: 10px 10px 5px grey;
+}
+#photo6
+{
+box-shadow: 10px 10px 5px grey;
+}
+#photo7
+{
+box-shadow: 10px 10px 5px grey;
+}
+#photo8
+{
+box-shadow: 10px 10px 5px grey;
+}
+#photo9
+{
+box-shadow: 10px 10px 5px grey;
+}
 
+#text{
+	color: white;
+  text-shadow: 2px 2px 4px #000000;
+  filter:drop-shadow(8px 8px 10px gray);
+}
+
+#logo
+{
+	transform: rotate(5deg);
+	filter:drop-shadow(8px 8px 10px gray);
+}
