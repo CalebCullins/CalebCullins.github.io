@@ -36,6 +36,19 @@ body
 	Mobile Devices: 0 - 480 pixels
    ============================================
 */
+@media only screen and (max-width: 600px)
+{
+	.pannel 
+	{
+		width:100%;
+	}
+	.horizontal 
+	{
+		order: 99;
+	}
+	
+	
+}
 
 
 
