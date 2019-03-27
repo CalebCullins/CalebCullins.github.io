@@ -25,6 +25,12 @@
 
 
 /* Comic Book Sheet Styles */
+article
+{
+	flex-grow:3;
+	flex-shrink:1;
+	flex-basis:301px;
+}
 
 
 

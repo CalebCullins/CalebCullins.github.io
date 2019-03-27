@@ -23,6 +23,11 @@
 
 /* Flex Layout Styles */
 
+body
+{
+	display: flex;
+	flex-wrap: wrap;
+}
 
 
 
