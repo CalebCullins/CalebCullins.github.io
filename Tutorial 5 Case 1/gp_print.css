@@ -17,12 +17,12 @@
 
 
 /* Hidden Objects */
-nav, footer, article
+@media print nav, footer, article
 {
 	display: none;
 }
 
-#sheet
+@media print #sheet
 {
 	width: 576px;
 }
