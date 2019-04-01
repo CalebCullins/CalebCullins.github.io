@@ -28,6 +28,10 @@ body
 	display: flex;
 	flex-wrap: wrap;
 }
+body > footer
+{
+	order: 100;
+}
 
 
 
@@ -36,7 +40,7 @@ body
 	Mobile Devices: 0 - 480 pixels
    ============================================
 */
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 480px)
 {
 	.pannel 
 	{
@@ -57,4 +61,40 @@ body
 	Tablet and Desktop Devices: Greater than 480 pixels
    ===================================================
 */
+@media only screen and (min-width: 480px)
+{
+	nav > ul
+	{
+		display: flex;
+		height: 40px;
+		flex-direction: row;
+		
+	}
+	ul > li 
+	{
+		flex-grow: 1;
+		flex-shrink: 1;
+		flex-basis: auto;
+		
+	}
+	
+	.size1
+	{
+		width: 100%;
+	}
+	.size2
+	{
+		width: 60%;
+	}
+	.size3
+	{
+		width: 40%;
+	}
+	.size4
+	{
+		width: 30%;
+	}
+		
+}
+
 

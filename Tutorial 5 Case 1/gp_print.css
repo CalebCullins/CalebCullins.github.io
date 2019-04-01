@@ -17,7 +17,31 @@
 
 
 /* Hidden Objects */
+nav, footer, article
+{
+	display: none;
+}
 
+#sheet
+{
+	width: 576px;
+}
+.size1
+{
+	width:480px;
+}
+.size2
+{
+	width:288px;
+}
+.size3
+{
+	width:192px;
+}
+.size4
+{
+	width:144px;
+}
 
 
 
