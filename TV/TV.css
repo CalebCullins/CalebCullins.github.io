@@ -1,0 +1,45 @@
+table, td, tr, th
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+}
+.row1
+{
+	background-color: red;
+}
+.row2
+{
+	background-color: blue;
+}
+.row3
+{
+	background-color: green;
+}
+.row4
+{
+	background-color: orange;
+}
+.row5
+{
+	background-color: brown;
+}
+.row6
+{
+	background-color: pink;
+}
+.row7
+{
+	background-color: purple;
+}
+.row8
+{
+	background-color: white;
+}
+tr:hover
+{
+	background-color: grey;
+	color: white;
+}
