@@ -125,7 +125,7 @@
 			required="yes">
 			
 			<label>Expiratoin Date</label>
-			<input id="experationBox" list="monthList">
+			<input id="cardMonth" list="monthList" required="yes">
 			<datalist id="monthList">
 				<option value="01">Janurary</option>)
 				<option value="02">Feburary</option>
@@ -140,6 +140,21 @@
 				<option value="11">November</option>
 				<option value="12">December</option>
 			</datalist>
+			
+			<input id="cardYear" required="yes" list="yearList" value="">
+			
+			<datalist id="yearList">
+				<option>2017</option>
+				<option>2018</option>
+				<option>2019</option>
+				<option>2020</option>
+				<option>2021</option>
+			</datalist>
+			
+			<label>CSC</label>
+			<input id="cscBox" required="yes" maxlength="3" pattern="^\d{3}$" value="nnn">
+			
+			<button type="submit"><img src="sb_button.png" alt="Submit Button"></button>
 			
 		  </form>
       
