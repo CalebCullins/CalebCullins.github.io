@@ -49,14 +49,23 @@
 			<fieldset id="billing">
 				<legend>Billing Information (required)</legend>
 			</fieldset>
+			<label>First Name</label>
 			<input name="First Name" id="firstBox" type="text" required="yes">
+			<label>Last Name</label>
 			<input name="Last Name" id="lastBox" type="text" required="yes">
+			<label>Street Address</label>
 			<input name="Street Address" id="streetBox" type="text" required="yes">
+			<label>Street Address (2)</label>
 			<input name="Street Adress (2)" id="" type="text" required="no">
+			<label>City</label>
 			<input name="City" id="city" type="text" required="yes">
+			<label>State</label>
 			<input name="State" id="state" type="text" required="yes" list="stateList">
+			<label>Zip/Postal Code</label>
 			<input name="ZIP/Postal Code" id="zip" type="text" required="no" pattern="^\d{5}(-\d{4})?$">
+			<label>Country</label>
 			<input name="Country" id="country" type="text" required="yes" value="United States">
+			<label>Phone</label>
 			<input name="Phone" id="phone" type="tel" required="yes" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$">
 			
 			<datalist id="stateList">
@@ -112,7 +121,7 @@
 					<option value="WI">Wisconsin</option>
 					<option value="WY">Wyoming</option>
 			</datalist>
-			
+		
 			<fieldset id="credicard">
 				<legend>Credit Card (required)</legend>
 				<label class="cardLabel"><INPUT TYPE="Radio" Name="payment" Value="amex" required="yes"><img src="sb_amex.png" alt="Amex" /></label>
