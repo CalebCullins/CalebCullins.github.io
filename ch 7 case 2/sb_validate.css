@@ -26,3 +26,17 @@ input:not([type= ' radio ' ]):focus:invalid
 }
 /* Validation Styles */
 
+fieldset
+{
+	float:left; 
+	
+}
+button
+{
+	float:left;
+}
+legend
+{
+	width: 600px;
+}
+
