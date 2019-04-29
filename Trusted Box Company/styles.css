@@ -107,6 +107,11 @@ header nav ul li a:hover
 	width: 50%;
   
 }
+table
+{
+	margin-left: auto;
+	margin-right: auto;
+}
 table, td, tr, th
 {
 	border: 1px solid black;
@@ -139,6 +144,7 @@ h1{
 }
 h2
 {
+	text-align:center;
 	padding:50px;
 }
 #contact
@@ -163,6 +169,17 @@ label
 .spacing
 {
 	padding:40px;
+}
+.skip
+{
+	opacity: 0;
+}
+.skip:hover
+{
+	display:block;
+	color:white;
+	opacity:100;
+	text-decoration:none;
 }
 @media only screen and (max-width: 600px)
 {
