@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Trusted Box Company - Home</title>
+		<!--
+		Author: 
+		Date:
+		Final Project
+		-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<header>
+		<h1>Trusted Box Company</h1>
+		<nav id="nav">
+			<ul>
+				<li><a href="Home.html">Home</a></li>
+				<li><a href="Hours.html">Hours</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+				<li><a href="#">Google Maps</a></li>
+			</ul>
+		</nav>
+	</header>
+	<body>
+		<article>
+			<h2 id="contact">Contact Us</h2>
+			<form id="payment" method="post"> 
+			<label>First Name</label> 
+			<input name="First Name" id="firstBox" type="text" required="yes" placeholder="Caleb">
+			<label>Last Name</label>
+			<input name="Last Name" id="lastBox" type="text" required="yes" placeholder="Jones">
+			<label>Phone</label>
+			<input name="Phone" id="phone" type="tel" required="yes" maxlength="10" placeholder="5255551212" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$">
+			<label>Email Address</label>
+			<input name="Email Address" id="email" type="text" required="yes" placeholder="name@example.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+			<label>How did you hear about us?</label>
+			<input name="hear about us" id="reference" type="text" required="yes" list="option1">
+			<button class="button" type="submit"><img>Submit</button>
+			<button class="button" type="reset" value="Reset">Reset</button>
+			</form>
+			
+			<datalist id="option1">
+				<option>From a friend</option>
+				<option>Online</option>
+				<option>Tv</option>
+				<option>Saw us while driving</option>
+			</datalist>
+		</article>
+		<img src="box.png" alt="Box Logo" width="200" height="500" id="boxim"/>
+	</body>
+	<footer>
+		Trusted Box Company &copy 2019 Springfield,MO
+	</footer>

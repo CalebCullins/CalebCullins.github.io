@@ -1,0 +1,27 @@
+@media print 
+{
+	html
+	{
+		background-color:white;
+		color:black;
+	}
+	body 
+	{
+		background-color:white;
+		color:black;
+	}
+	article
+	
+	{
+		background-color:white;
+		color:black;
+	}
+	#boxim
+	{
+		display:none;
+	}
+	#nav
+	{
+		display:none;
+	}
+}
