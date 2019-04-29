@@ -1,4 +1,4 @@
-@media print 
+@media only print 
 {
 	html
 	{
@@ -16,12 +16,13 @@
 		background-color:white;
 		color:black;
 	}
-	#boxim
+	img
 	{
-		display:none;
+		display:none !important;
 	}
 	nav
 	{
-		display:none;
+		display:none !important;
 	}
+	
 }

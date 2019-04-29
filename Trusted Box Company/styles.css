@@ -48,8 +48,14 @@ article
 	background-color:rgb(168, 142, 82);
 	margin-left: auto;
 	margin-right: auto;
+	text-align:center;
 }
-
+input
+{
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 p {
    font-size: 1.2em;
@@ -69,10 +75,11 @@ p {
     width:100%;
     position:absolute;
 }
-header nav 
+header nav, #nav
 {
-   background-color: rgba(51, 51, 51, 0.35);
+   
    clear: both;
+   line-height: 2.3em;
 }
 header nav ul li
 {
@@ -198,6 +205,37 @@ label
 	{
 		margin-left: auto;
 		margin-right: auto;	
+	}
+}
+@media only print 
+{
+	html
+	{
+		background-color:white;
+		color:black;
+	}
+	body 
+	{
+		background-color:white;
+		color:black;
+	}
+	article
+	
+	{
+		background-color:white;
+		color:black;
+	}
+	img
+	{
+		display:none !important;
+	}
+	nav
+	{
+		display:none !important;
+	}
+	h2
+	{
+		display:none;
 	}
 }
 
